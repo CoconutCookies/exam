@@ -40,6 +40,7 @@
     margin-top: 10px;
   }
 
+
   .slider{
     max-width: 90%;
     position: relative;
@@ -47,7 +48,7 @@
     height: 300px;
     margin-bottom: 15px;
 }
-/* Картинка мастабируется по отношению к родительскому элементу */
+/* Картинка маштабируется по отношению к родительскому элементу */
   .slider .item img {
     object-fit: cover;
     width: 100%;
@@ -144,13 +145,94 @@
   }
 
 
+  .delivery {
+    font-size: 4ex;
+    color: black;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+  }
+  
+  .inner-content {
+    background: rgb(255, 255, 255);
+    min-height: 500px;
+  }
+  
+  .flex-item-1 {
+    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 40px;
+    padding-top: 20px;
+    line-height: 45px;
+    color: #050201;
+    background-color: #FAE8C7;
+    display: inline-block;
+    font-weight: bold;
+    font-family : Courier;
+    font-size: 20px;
+    text-align: justify ;
+  }
+  
+  .flex-item-2 {
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 240px;
+    line-height: 45px;
+    color: #050201;
+    background-color: #f5deb3;
+    display: inline-block;
+    font-weight: bold;
+    font-family : Courier;
+    font-size: 10x;
+    text-align: center;
+  }
+  
+  .flex-item {
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 100px;
+    line-height: 45px;
+    background-color: #e0e0e0;
+    display: inline-block;
+    font-weight: bold;
+    font-family : Courier;
+    text-align: center;
+    color: black;
+  }
+  
+  .item {
+    order: 4;
+    flex-grow: 4; 
+    flex-shrink: 3;
+    flex-basis: auto;
+  }
+  
+  .center-pic{
+    padding-top: 40px;
+    display:block;
+    margin:auto;
+    }
+
+  
   .footer {
     margin-top: 10px;
   }
   
   .inner-footer {
     background:#1c6868;
-    height: 130px;
+    height: 150px;
     text-align: center;
     font-family: Courier;
     font-weight: bold;
